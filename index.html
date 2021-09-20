@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>JADSotype Test</title>
+    <meta name="description" content="Determine your personality (according to JADS)."/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="JADSotype"/>
+    <meta property="og:description" content="Determine your personality (according to JADS)."/>
+    <meta property="og:locale" content="en"/>
+    <meta property="og:url" content="https://jads-dev.github.io/jadsotype"/>
+
+    <style>
+        :root {
+            margin: auto;
+            max-width: 60em;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .answers {
+            border-radius: 0.5em;
+            padding: 1em;
+            background: linear-gradient(90deg, rgba(255, 173, 0, 1) 0%, rgba(0, 174, 255, 1) 100%);
+        }
+
+        .answers > ol {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0;
+            list-style: none;
+        }
+
+        .answers > .controls {
+            margin: 0;
+            height: 2em;
+        }
+
+        .answers > ol > li {
+            flex-basis: 0;
+            flex-grow: 1;
+        }
+
+        .answers > .labels > li:first-of-type {
+            text-align: left;
+        }
+
+        .answers > .labels > li:last-of-type {
+            text-align: right;
+        }
+
+        .answers > .controls > li > label {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .answers > ol > li {
+            text-align: center;
+        }
+
+        .progress {
+            margin-top: 1em;
+            display: flex;
+        }
+
+        .progress > label {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .result {
+            text-align: center;
+        }
+
+        .result > .emoji {
+            font-size: 5em;
+            letter-spacing: 0.2em;
+        }
+
+        .result > .full {
+            list-style: none;
+            padding: 0;
+            gap: 1em;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+            justify-content: space-around;
+        }
+
+        .result > .full > li {
+            padding: 1em;
+            border-radius: 1em;
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .result > .full > li > h4 {
+            font-size: 1.25em;
+            margin: 0.5em;
+        }
+
+        .result .gamer {
+            background-color: #6c8bf0;
+        }
+        .result .anime {
+            background-color: #f0a56c;
+        }
+        .result .topics {
+            background-color: #f0e76c;
+        }
+        .result .debate {
+            background-color: #e16cf0;
+        }
+
+        .finish {
+            display: block;
+            margin: 1em auto;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#"><h1>JADSotype</h1></a>
+      <p>Determine your personality type with the peer-reviewed highly scientific JADSotype system.</p>
+    </header>
+
+    <div id="test">
+    </div>
+
+    <script type="module">
+      import {html, render} from 'https://unpkg.com/lit-html?module';
+      import {repeat} from 'https://unpkg.com/lit-html/directives/repeat.js?module';
+
+      const dichotomies = [
+        {
+          id: "anime",
+          name: "Anime",
+          ends: [
+            {
+              id: "w",
+              name: "Weeb",
+              emoji: "🇯🇵",
+              description: "You are comfortable with your relationship with Anime."
+            },
+            {
+              id: "d",
+              name: "Denial",
+              emoji: "🙅",
+              description: "You are aware of the problems with Anime, and keep your distance.",
+            },
+          ],
+        },
+        {
+          id: "gamer",
+          name: "Gamer",
+          ends: [
+            {
+              id: "r",
+              name: "Redditor",
+              emoji: "🤡",
+              description: "You will play a game as the developer intended."
+            },
+            {
+              id: "g",
+              name: "Grinder",
+              emoji: "⚙️",
+              description: "You will make your way past any obstacle.",
+            },
+          ],
+        },
+        {
+          id: "topics",
+          name: "Topics",
+          ends: [
+            {
+              id: "p",
+              name: "Political",
+              emoji: "😡",
+              description: "You will make your points and change the world, one discord server at a time."
+            },
+            {
+              id: "h",
+              name: "Horny",
+              emoji: "🍆",
+              description: "You appreciate the finer things in life.",
+            },
+          ],
+        },
+        {
+          id: "debate",
+          name: "The Debate",
+          ends: [
+            {
+              id: "b",
+              name: "Bat",
+              emoji: "🦇",
+              description: "You understand that it's all about ease of use."
+            },
+            {
+              id: "k",
+              name: "Knife",
+              emoji: "🔪",
+              description: "You understand that lethality matters most.",
+            },
+          ],
+        },
+      ];
+
+      const shuffle = (values) =>
+        values
+          .map((value) => ({value, sort: Math.random()}))
+          .sort((x, y) => x.sort - y.sort)
+          .map(({value}) => value);
+
+      const randomDirection = () => Math.random() < 0.5;
+
+      const questions = shuffle([
+        {
+          question: "Your friend asks you for a recommendation and there is an Anime you think they might like, what do you recommend?",
+          labels: [
+            "The Anime.",
+            "Only if you know they like Anime.",
+            "Something Else."
+          ],
+          dichotomy: "anime"
+        },
+        {
+          question: "What is the most fun in a game?",
+          labels: [
+            "Engaging with every system.",
+            "No preference.",
+            "Mastering systems."
+          ],
+          dichotomy: "gamer"
+        },
+        {
+          question: "Someone makes a serious post on discord that's over 3 lines long.",
+          labels: [
+            "Argue the point.",
+            "Ignore it.",
+            ":HeinzGate:",
+          ],
+          dichotomy: "topics"
+        },
+        {
+          question: "A new Joe video comes out, how do you watch it?",
+          labels: [
+            "In segments over different sessions.",
+            "Maybe take a break.",
+            "All at once.",
+          ],
+          dichotomy: "gamer"
+        },
+        {
+          question: "It's the JADS voting game and you need to secure votes for your game, what do you do?",
+          labels: [
+            "Form alliances, trade votes, scheme.",
+            "Support your game.",
+            "Trade nudes for votes."
+          ],
+          dichotomy: "topics"
+        },
+        {
+          question: "Which would you prefer to see when you enter JADS?",
+          labels: [
+            "Debate about the definition of a word.",
+            "Equally bad.",
+            "Hentai tag tier lists."
+          ],
+          dichotomy: "topics"
+        },
+        {
+          question: "Someone hurts their toe on a broken floorboard, what do you respond with?",
+          labels: [
+            "Decry landlords/tell them to work harder and buy a house.",
+            "Both/Neither",
+            "Request pictures of the feet.",
+          ],
+          dichotomy: "topics"
+        },
+        {
+          question: "The figurine...",
+          labels: [
+            "Goes in the jar.",
+            "Goes on the shelf.",
+            "Is hidden.",
+          ],
+          dichotomy: "anime"
+        },
+        {
+          question: "20,000 Monocoins...",
+          labels: [
+            "For Enabling Ayaya",
+            "Who Cares",
+            "For Literally Nothing"
+          ],
+          dichotomy: "anime"
+        },
+        {
+          question: "Someone in JADS asks you who would win, one modern solider with infinite ammo or an entire medieval army.",
+          labels: [
+            "The army.",
+            "Who cares.",
+            "The one guy."
+          ],
+          dichotomy: "debate"
+        },
+        {
+          question: "You walk down the street and see a child, you instantly ask yourself: would I rather fight 20 children or one adult to the death?",
+          labels: [
+            "20 children.",
+            "No idea.",
+            "1 adult."
+          ],
+          dichotomy: "debate"
+        },
+        {
+          question: "Subs or dubs?",
+          labels: [
+            "Subs",
+            "Both",
+            "Dubs"
+          ],
+          dichotomy: "anime"
+        },
+        {
+          question: "Do you ever cheat or look up how to solve a puzzle in a game when it frustrates you?",
+          labels: [
+            "Yes",
+            "Rarely",
+            "Never"
+          ],
+          dichotomy: "gamer"
+        },
+        {
+          question: "Do you care about achievements?",
+          labels: [
+            "No.",
+            "If they are interesting.",
+            "Yes."
+          ],
+          dichotomy: "gamer"
+        },
+        {
+          question: "Are personality tests inane and pointless?",
+          labels: [
+            "Who cares?",
+            "Dunno/maybe.",
+            "The answer is obvious."
+          ],
+          dichotomy: "debate"
+        },
+      ]).map((q) => ({
+        ...q,
+        direction: randomDirection()
+      }));
+
+      const answers = new Map();
+
+      const test = document.getElementById("test");
+
+      function getEnd({ends}, score) {
+        const [low, high] = ends;
+        if (score <= 0) {
+          return low;
+        } else {
+          return high;
+        }
+      }
+
+      function computeResults() {
+        const scores = new Map();
+
+        for (const [questionIndex, value] of answers.entries()) {
+          const {dichotomy} = questions[questionIndex]
+          scores.set(dichotomy, scores.get(dichotomy) ?? 0 + value);
+        }
+
+        const resultId =
+          dichotomies.map(d => getEnd(d, scores.get(d.id) ?? 0).id).join("");
+
+        window.location.hash = resultId;
+
+        return resultId;
+      }
+
+      function renderResults(resultId) {
+        const results =
+          dichotomies.map((d, index) => [d, resultId[index] === d.ends[0].id ? d.ends[0] : d.ends[1]])
+
+        function renderScore([d, {name, emoji, description}]) {
+          return html`
+            <li class="${d.id}">
+              <h4>${emoji} ${name}</h4>
+              <p>${description}</p>
+            </li>
+          `;
+        }
+
+        render(html`
+          <h2>Results</h2>
+
+          <div class="result">
+            <span class="emoji">${results.map(([_, {emoji}]) => emoji)}</span>
+            <ol class="full">${results.map(renderScore)}</ol>
+          </div>
+        `, test);
+      }
+
+      function renderLabel(label) {
+        return html`
+          <li>${label}</li>`;
+      }
+
+      function renderControl(index, currentAnswer, value) {
+        return html`
+          <li>
+            <label>
+              <input
+                id=${`q${index}a${value}`}
+                type="radio"
+                name="answer-${index}"
+                autocomplete="off"
+                .checked=${currentAnswer === value}
+                @click="${() => { answers.set(index, value); renderQuestion(index); }}"
+              />
+            </label>
+          </li>
+        `;
+      }
+
+      function* generateValues(count) {
+        const midway = Math.floor(count / 2);
+        for (let value = 0; value <= (count - 1); value += 1) {
+          yield value - midway;
+        }
+      }
+
+      function renderQuestion(index) {
+        const {question, labels, direction} = questions[index];
+
+        const directionalValues = [...generateValues(5)];
+        const directionalLabels = [...labels];
+        if (direction) {
+          directionalValues.reverse();
+          directionalLabels.reverse();
+        }
+
+        const currentAnswer = answers.get(index);
+
+        const view = html`
+          <h2>The Test</h2>
+
+          <div class="progress">
+            <button @click="${() => renderQuestion(index - 1)}" ?disabled="${index - 1 < 0}">Previous</button>
+            <label>
+              <span>${index + 1} / ${questions.length}</span>
+              <progress value="${index}" max="${questions.length - 1}"></progress>
+            </label>
+            <button @click="${() => renderQuestion(index + 1)}" ?disabled="${index + 1 >= questions.length || currentAnswer === undefined}">Next
+            </button>
+          </div>
+
+          <form id="question-${index}">
+            <h3>Question ${index + 1}:</h3>
+            <p class="question">${question}</p>
+            <div class="answers">
+              <ol class="labels">
+                ${directionalLabels.map((label) => renderLabel(label))}
+              </ol>
+              <ol class="controls">
+                ${repeat(
+                    directionalValues,
+                    (value) => `q${index}a${value}`,
+                    (value) => renderControl(index, currentAnswer, value)
+                )}
+              </ol>
+            </div>
+          </form>
+
+          ${
+            index + 1 >= questions.length ?
+              html`<button class="finish" @click="${() => renderResults(computeResults())}" ?disabled="${currentAnswer === undefined}">Get Your JADSotype</button>` :
+              html``
+          }
+        `;
+
+        function init() {
+          if (window.location.hash !== "") {
+            renderResults([...window.location.hash.slice(1)].join(""));
+          } else {
+            render(view, test);
+          }
+        }
+
+        window.addEventListener("hashchange", init);
+
+        init();
+      }
+
+      renderQuestion(0);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+[
+  {
+    "question": "Your friend asks you for a recommendation and there is an Anime you think they might like, what do you recommend?",
+    "answers": [
+      "The Anime.",
+      "Only if you know they like Anime.",
+      "Something Else."
+    ],
+    "effects": ["ww", "w", "", "d", "dd"]
+  },
+  {
+    "question": "What is the most fun in a game?",
+    "answers": [
+      "Engaging with every system.",
+      "No preference.",
+      "Mastering systems."
+    ],
+    "effects": ["rr", "r", "", "g", "gg"]
+  },
+  {
+    "question": "Someone makes a serious post on discord that’s over 3 lines long.",
+    "answers": ["Argue the point.", "Ignore it.", ":HeinzGate:"],
+    "effects": ["pp", "p", "", "h", "hh"]
+  },
+  {
+    "question": "A new Joe video comes out, how do you watch it?",
+    "answers": [
+      "Comment angrily from the title.",
+      "Skip through.",
+      "In segments.",
+      "Maybe take a break.",
+      "All at once."
+    ],
+    "effects": ["rr", "r", "", "g", "gg"]
+  },
+  {
+    "question": "It’s the JADS voting game and you need to secure votes for your game, what do you do?",
+    "answers": [
+      "Form alliances, trade votes, scheme.",
+      "Make propaganda for your game.",
+      "Bribe Joe.",
+      "Flirt for votes.",
+      "Trade nudes for votes."
+    ],
+    "effects": ["pp", "p", "k", "h", "hh"]
+  },
+  {
+    "question": "Which would you prefer to see when you enter JADS?",
+    "answers": [
+      "Definitions debate.",
+      "Both the same.",
+      "Hentai tag tier lists."
+    ],
+    "effects": ["pp", "p", "", "h", "hh"]
+  },
+  {
+    "question": "Someone hurts their toe on a broken floorboard, what do you respond with?",
+    "answers": [
+      "Use this to promote your economic opinions.",
+      "Tell them no one cares",
+      "Ignore it.",
+      ":ghosthug:",
+      "Request feet pics."
+    ],
+    "effects": ["pp", "g", "", "r", "hh"]
+  },
+  {
+    "question": "The figurine...",
+    "answers": [
+      "Goes in the jar.",
+      "Has removable clothes.",
+      "Goes on the shelf.",
+      "Is hidden.",
+      "Isn’t mine."
+    ],
+    "effects": ["wwhh", "wh", "w", "d", "dd"]
+  },
+  {
+    "question": "20,000 Monocoins...",
+    "answers": ["For Enabling Ayaya", "Who Cares", "For Literally Nothing"],
+    "effects": ["ww", "w", "", "d", "dd"]
+  },
+  {
+    "question": "Who would win, one modern soldier with infinite ammo or an entire medieval army.",
+    "answers": ["The army.", "Who cares.", "The one guy."],
+    "effects": ["bb", "b", "", "k", "kk"]
+  },
+  {
+    "question": "You walk down the street and see a child, you instantly ask yourself: would I rather fight 20 children or one adult to the death?",
+    "answers": ["20 children.", "No idea.", "1 adult."],
+    "effects": ["bb", "b", "", "k", "kk"]
+  },
+  {
+    "question": "Subs or dubs?",
+    "answers": ["I know Japanese", "Subs", "Either", "Dubs", "Neither"],
+    "effects": ["ww", "w", "", "d", "dd"]
+  },
+  {
+    "question": "Do you ever cheat or look up how to solve a puzzle in a game when it frustrates you?",
+    "answers": ["Yes", "Rarely", "Never"],
+    "effects": ["rr", "r", "", "g", "gg"]
+  },
+  {
+    "question": "Do you care about achievements?",
+    "answers": ["No.", "If they are interesting.", "Yes."],
+    "effects": ["rr", "r", "", "g", "gg"]
+  },
+  {
+    "question": "Are personality tests inane and pointless?",
+    "answers": ["Who cares?", "Dunno/maybe.", "The answer is obvious."],
+    "effects": ["bb", "b", "", "k", "kk"]
+  },
+  {
+    "question": "What counts as a win to you?",
+    "answers": [
+      "Others must fail.",
+      "My goals fulfilled.",
+      "When I get out of bed."
+    ],
+    "effects": ["kkg", "kg", "gb", "br", "brr"]
+  },
+  {
+    "question": "You have some free time! What do you do?",
+    "answers": [
+      "Tinder.",
+      "Play a game.",
+      "Social media.",
+      "Go on JADS.",
+      "Watch Anime."
+    ],
+    "effects": ["h", "g", "r", "p", "w"]
+  },
+  {
+    "question": "If you had to be in a room with a group from JADS for a week, who would you pick?",
+    "answers": [
+      "Mods",
+      "Vtuber posters",
+      "Horny posters",
+      "Contrarians",
+      "Lurkers"
+    ],
+    "effects": ["b", "w", "h", "p", "k"]
+  },
+  {
+    "question": "What do you suggest with your anime watchalong marble?",
+    "answers": [
+      "Anime Joe will like.",
+      "My favourite anime.",
+      "Not Anime.",
+      "Anime Joe will hate.",
+      "My favourite hentai."
+    ],
+    "effects": ["w", "r", "d", "p", "hh"]
+  },
+  {
+    "question": "Anu’s PT server...",
+    "answers": ["I’m a member!", "Don’t care.", "It’s a cult."],
+    "effects": ["ww", "w", "", "d", "dd"]
+  },
+  {
+    "question": "Spoiler image in JADS, what message alongside are you most likely to click (where [game] is a game you haven’t played)?",
+    "answers": [
+      "“:SaberBlush: / :RyujiBlush:”",
+      "“End of [game]:”",
+      "None of these.",
+      "“Map of routes through [game]:”",
+      "“Hot take:”"
+    ],
+    "effects": ["hh", "r", "", "g", "pp"]
+  },
+  {
+    "question": "You are in a huge rush and driving somewhere, what do you do?",
+    "answers": [
+      "Short route with potential traffic.",
+      "What the GPS tells me.",
+      "Long route with no traffic."
+    ],
+    "effects": ["bb", "b", "", "k", "kk"]
+  },
+  {
+    "question": "What would you rather play?",
+    "answers": [
+      "A game so bad it is funny.",
+      "An adult VN.",
+      "None of these.",
+      "A rage game.",
+      "Something I need a spreadsheet for."
+    ],
+    "effects": ["rb", "hw", "", "kg", "pd"]
+  },
+  {
+    "question": "You need to do something you've never done, what do you do?",
+    "answers": [
+      "Find a beginner's guide.",
+      "Give up.",
+      "Seek an expert for advice."
+    ],
+    "effects": ["bb", "b", "", "k", "kk"]
+  },
+  {
+    "question": "You are making a death game, what do you prioritise?",
+    "answers": [
+      "Horny moments.",
+      "Number of deaths.",
+      "The moral message.",
+      "Killing efficiency.",
+      "Death game? Sounds derivative."
+    ],
+    "effects": ["h", "b", "p", "k", "d"]
+  }
+]

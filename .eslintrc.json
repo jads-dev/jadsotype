@@ -1,0 +1,8 @@
+{
+  "root": true,
+  "plugins": ["simple-import-sort"],
+  "extends": "eslint:recommended",
+  "rules": {
+    "simple-import-sort/imports": "error"
+  }
+}

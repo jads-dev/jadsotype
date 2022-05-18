@@ -1,0 +1,163 @@
+:root {
+  font-family: sans-serif;
+  margin: auto;
+  max-width: 60em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    background-color: #222222;
+    color: #fafafa;
+  }
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #cc0000;
+}
+
+header img {
+  display: inline;
+  width: 1em;
+  height: 1em;
+}
+
+header > p {
+  text-align: center;
+}
+
+.answers {
+  border-radius: 0.5em;
+  padding: 1em;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 173, 0, 1) 0%,
+    rgba(0, 174, 255, 1) 100%
+  );
+}
+
+@media (prefers-color-scheme: dark) {
+  .answers {
+    background: linear-gradient(
+      90deg,
+      rgba(150, 25, 0, 1) 0%,
+      rgba(0, 25, 150, 1) 100%
+    );
+  }
+}
+
+.answers > ol {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+
+.answers > .controls {
+  box-sizing: border-box;
+  margin: 0 7%;
+  width: 85%;
+}
+
+.answers > ol > li {
+  min-width: min-content;
+  flex-basis: 15%;
+}
+
+datalist {
+  display: none;
+}
+
+.answers > ol > li {
+  text-align: center;
+}
+
+.progress {
+  margin-top: 1em;
+  display: flex;
+}
+
+.progress > label {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result > .simple {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.result > .simple > .emoji {
+  font-size: 5em;
+  margin-right: 0.25em;
+}
+
+button {
+  font-size: 1.5em;
+  align-self: center;
+  border: 0.1em solid #000000;
+  background-color: #6c8bf0;
+}
+
+.result > .full {
+  list-style: none;
+  padding: 0;
+  gap: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  justify-content: space-around;
+}
+
+.result > .full > li {
+  padding: 1em;
+  border-radius: 1em;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result > .full > li > h4 {
+  font-size: 1.25em;
+  margin: 0.5em;
+}
+
+.result {
+  color: #000000;
+}
+
+.result .primary {
+  color: #cc0000;
+}
+
+.result .gamer {
+  background-color: #6c8bf0;
+}
+.result .anime {
+  background-color: #f0a56c;
+}
+.result .topics {
+  background-color: #f0e76c;
+}
+.result .debate {
+  background-color: #e16cf0;
+}
+
+.finish {
+  display: block;
+  margin: 1em auto;
+}
+
+#chart {
+  aspect-ratio: 1;
+}

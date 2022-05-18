@@ -1,0 +1,78 @@
+[
+  {
+    "id": "anime",
+    "name": "Anime",
+    "colour": "#f0a56c",
+    "ends": [
+      {
+        "id": "w",
+        "name": "Weeb",
+        "emoji": "🇯🇵",
+        "description": "You are comfortable with your relationship with Anime."
+      },
+      {
+        "id": "d",
+        "name": "Denial",
+        "emoji": "🙅",
+        "description": "You don't wish to be seen as a common weeb, you only watch good shows."
+      }
+    ]
+  },
+  {
+    "id": "gamer",
+    "name": "Gamer",
+    "colour": "#6c8bf0",
+    "ends": [
+      {
+        "id": "r",
+        "name": "Redditor",
+        "emoji": "🤡",
+        "description": "You will play a game as the developer intended."
+      },
+      {
+        "id": "g",
+        "name": "Grinder",
+        "emoji": "⚙️",
+        "description": "You will make your way past any obstacle."
+      }
+    ]
+  },
+  {
+    "id": "topics",
+    "name": "Topics",
+    "colour": "#f0e76c",
+    "ends": [
+      {
+        "id": "p",
+        "name": "Political",
+        "emoji": "😡",
+        "description": "You will make your points and change the world, one discord server at a time."
+      },
+      {
+        "id": "h",
+        "name": "Horny",
+        "emoji": "🍆",
+        "description": "You appreciate the finer things in life."
+      }
+    ]
+  },
+  {
+    "id": "debate",
+    "name": "The Debate",
+    "colour": "#e16cf0",
+    "ends": [
+      {
+        "id": "b",
+        "name": "Bat",
+        "emoji": "🦇",
+        "description": "You understand that it's all about ease of use."
+      },
+      {
+        "id": "k",
+        "name": "Knife",
+        "emoji": "🔪",
+        "description": "You understand that lethality matters most."
+      }
+    ]
+  }
+]

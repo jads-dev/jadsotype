@@ -40,7 +40,11 @@ export async function init() {
     const users = usersByResult.get(result.map(({ id }) => id).join("")) ?? [];
     return html`
       <div class="result">
-        <h2>${result.map(({ emoji }) => emoji).join(" ")}</h2>
+        <h2>
+          ${result.map(
+            ({ name, emoji }) => html`<span title=${name}>${emoji} </span>`,
+          )}
+        </h2>
         <ul>
           ${users.map(user)}
         </ul>

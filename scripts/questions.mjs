@@ -1,7 +1,7 @@
 import { html, render } from "https://unpkg.com/lit@2.2.3?module";
 
-import { load, randomBool, shuffle, zip } from "./util.mjs";
 import { computeResults, renderResults } from "./results.mjs";
+import { load, randomBool, shuffle, zip } from "./util.mjs";
 
 function expand(answers) {
   switch (answers.length) {

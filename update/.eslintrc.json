@@ -5,7 +5,7 @@
     "sourceType": "module"
   },
   "env": {
-    "browser": true,
+    "node": true,
     "es2020": true
   },
   "plugins": ["simple-import-sort"],

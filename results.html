@@ -2,11 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>JADSotype Test</title>
-    <meta
-      name="description"
-      content="Determine your personality (according to JADS)."
-    />
+    <title>JADSotype Results</title>
+    <meta name="description" content="JADSotype results of JADS users." />
     <link rel="icon" href="icon.png" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,35 +13,39 @@
     <meta property="og:title" content="JADSotype" />
     <meta
       property="og:description"
-      content="Determine your personality (according to JADS)."
+      content="JADSotype results of JADS users."
     />
     <meta property="og:locale" content="en" />
     <meta
       property="og:image"
       content="https://jads-dev.github.io/jadsotype/icon.png"
     />
-    <meta property="og:url" content="https://jads-dev.github.io/jadsotype" />
+    <meta
+      property="og:url"
+      content="https://jads-dev.github.io/jadsotype/results.html"
+    />
 
     <link href="styles/index.css" rel="stylesheet" />
   </head>
-  <body class="limit">
+  <body class="fill">
     <header>
-      <a href="#">
+      <a href="https://jads-dev.github.io/jadsotype">
         <h1><img alt="JADSotype Logo" src="icon.png" /> JADSotype</h1></a
       >
       <p>
-        Determine your personality type with the peer-reviewed highly scientific
-        JADSotype system.
+        JADS users according to the peer-reviewed highly scientific JADSotype
+        system.
+        <a href="https://jads-dev.github.io/jadsotype/"
+          >Take the test yourself</a
+        >.
       </p>
     </header>
 
-    <div id="test"></div>
+    <div id="jads-results"></div>
 
     <script type="module">
-      import { init } from "./scripts/questions.mjs";
-
-      init();
-      window.addEventListener("hashchange", init);
+      import { init } from "./scripts/jads-results.mjs";
+      await init();
     </script>
   </body>
 </html>

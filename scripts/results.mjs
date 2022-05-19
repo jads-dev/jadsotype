@@ -1,9 +1,9 @@
-import { html, render } from "https://unpkg.com/lit@2.2.3?module";
 import { Chart, registerables } from "https://unpkg.com/chart.js@3.7.1?module";
+import { html, render } from "https://unpkg.com/lit@2.2.3?module";
+
+import { load, max, randomBool } from "./util.mjs";
 
 Chart.register(...registerables);
-
-import { load, randomBool, max } from "./util.mjs";
 
 const dichotomies = await load("./data/dichotomies.json");
 
@@ -95,6 +95,7 @@ export function renderResults(hash) {
         <ol class="full">
           ${results.map(renderEnd)}
         </ol>
+        <p><a href="results.html" target="_blank">See how you compare.</a></p>
       </div>
 
       <h3>Detailed Results</h3>

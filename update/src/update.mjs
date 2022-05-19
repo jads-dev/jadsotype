@@ -61,7 +61,7 @@ async function updateUser(old) {
 
 await Fs.writeFile(
   filename,
-  JSON.stringify(await Promise.all(file.map(updateUser)), undefined, 2),
+  `${JSON.stringify(await Promise.all(file.map(updateUser)), undefined, 2)}\n`,
   { encoding: "utf8" },
 );
 

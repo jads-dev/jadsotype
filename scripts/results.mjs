@@ -158,6 +158,7 @@ export function renderResults(hash) {
       scales: {
         r: {
           min: -1,
+          suggestedMax: 10,
           ticks: {
             display: false,
           },

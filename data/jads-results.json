@@ -522,5 +522,26 @@
     "name": "Mitchmaster",
     "discriminator": "3635",
     "avatar": "91a1c942f7d61175e7a96fa79fb02376"
+  },
+  {
+    "userId": "256263867728920577",
+    "result": "drpb",
+    "name": "Bloopy",
+    "discriminator": "5410",
+    "avatar": "a63391c509c06299f8607f573f668465"
+  },
+  {
+    "userId": "87038653188018176",
+    "result": "dgpb",
+    "name": "FANGS_UP7",
+    "discriminator": "4128",
+    "avatar": "1626c3e89ac92ed0afd5d0fabff083b3"
+  },
+  {
+    "userId": "184825961592782848",
+    "result": "wghb",
+    "name": "Verdox",
+    "discriminator": "2641",
+    "avatar": "d57fdc7b94f32dc53212961d3f2fabac"
   }
 ]

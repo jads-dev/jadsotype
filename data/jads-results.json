@@ -382,5 +382,33 @@
     "name": "Randomeer",
     "discriminator": "2678",
     "avatar": "9ca64354015ec4a737a1149926e39028"
+  },
+  {
+    "userId": "222353280309788672",
+    "result": "drpk",
+    "name": "Omarequiem",
+    "discriminator": "5844",
+    "avatar": "9424b07e1df285060423e7edda7a6c1a"
+  },
+  {
+    "userId": "315470441206513666",
+    "result": "wghb",
+    "name": "Retinas",
+    "discriminator": "2001",
+    "avatar": "0f441904079e40f2c464803342b5fa37"
+  },
+  {
+    "userId": "322481226449682432",
+    "result": "wghb",
+    "name": "Sarcedor",
+    "discriminator": "9566",
+    "avatar": "d0e998d211c6256fa1c4ed79114e2747"
+  },
+  {
+    "userId": "262334231672258560",
+    "result": "wghb",
+    "name": "Silkspire",
+    "discriminator": "7219",
+    "avatar": "7c6d6b6480541f2b40e41304266c6483"
   }
 ]

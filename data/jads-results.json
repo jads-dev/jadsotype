@@ -466,5 +466,26 @@
     "name": "Hatsume",
     "discriminator": "6965",
     "avatar": "5f5134efa9a5dc4fbfa224c6f3f4faa3"
+  },
+  {
+    "userId": "202050015777128449",
+    "result": "wgpk",
+    "name": "Zozo",
+    "discriminator": "9894",
+    "avatar": "a5f1e21dba889f9a82ea88a821736d17"
+  },
+  {
+    "userId": "192467598275772417",
+    "result": "wrpk",
+    "name": "Anumemes",
+    "discriminator": "1407",
+    "avatar": "944b8fc5eadf3680c2f83fe390d724f6"
+  },
+  {
+    "userId": "273482473088745472",
+    "result": "wrpb",
+    "name": "Nihil",
+    "discriminator": "7784",
+    "avatar": "57f851282d251c9a5cfb0a96dd789e13"
   }
 ]

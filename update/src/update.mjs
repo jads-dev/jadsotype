@@ -1,5 +1,4 @@
 import * as Discord from "discord.js";
-import { open } from "fs";
 import * as Fs from "fs/promises";
 import { default as Yargs } from "yargs";
 import { hideBin } from "yargs/helpers";
@@ -38,10 +37,25 @@ function canonicalize(result) {
       return canonicalResult;
     } else {
       throw new Error(
-        `Could not canonicalize "${result} (got ${canonicalResult}).`,
+        `Could not canonicalize “${result}” (got “${canonicalResult}”).`,
       );
     }
   }
+}
+
+function* batches(items, batchSize = 10) {
+  const copy = [...items];
+  while (copy.length) {
+    yield copy.splice(0, batchSize);
+  }
+}
+
+async function batched(items, operation, batchSize = 10) {
+  const results = [];
+  for (const batch of batches(items, batchSize)) {
+    results.push(await Promise.all(batch.map(operation)));
+  }
+  return results.flatMap((batch) => batch);
 }
 
 async function updateUser(client, old) {
@@ -92,7 +106,8 @@ async function main(
   const update = addOnly
     ? (old) => (isAddition(old) ? updateUser(client, old) : old)
     : (old) => updateUser(client, old);
-  const updatedResults = await Promise.all(results.map(update));
+
+  const updatedResults = await batched(results, update, 10);
 
   await client.destroy();
 

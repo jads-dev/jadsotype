@@ -67,5 +67,61 @@
     "name": "TheQwertiest",
     "discriminator": "6028",
     "avatar": "90369ef0deaa225cdcf29509d61b7b9e"
+  },
+  {
+    "userId": "173623695548481536",
+    "result": "wghk",
+    "name": "Gluten Free Guy",
+    "discriminator": "0287",
+    "avatar": "a_3220c092249724466f7797a236fdedb6"
+  },
+  {
+    "userId": "187716911880994816",
+    "result": "dgpk",
+    "name": "PubSub",
+    "discriminator": "1319",
+    "avatar": "273493fd265b41b044788f4d639ee8fb"
+  },
+  {
+    "userId": "195910927873343488",
+    "result": "dgpb",
+    "name": "Connor",
+    "discriminator": "9475",
+    "avatar": "67ebe63279357b3d0b2717fc60c5f6f9"
+  },
+  {
+    "userId": "230662897049665536",
+    "result": "wgpk",
+    "name": "magzh (aka rintezuka)",
+    "discriminator": "9158",
+    "avatar": "193022abe67007daffbfdcb4e81bf192"
+  },
+  {
+    "userId": "139045625315590144",
+    "result": "wrhk",
+    "name": "Sabriel",
+    "discriminator": "5911",
+    "avatar": "e740f4ffae7dbf0d5986d78eaca5f44f"
+  },
+  {
+    "userId": "184408178224660480",
+    "result": "wrhb",
+    "name": "utemt6",
+    "discriminator": "2189",
+    "avatar": "d729cddbf7212ca36984775d26f9ae8c"
+  },
+  {
+    "userId": "190188039719485440",
+    "result": "wgpk",
+    "name": "Kryptic",
+    "discriminator": "0008",
+    "avatar": "7cd8f33c6c60d5b225e7ab3799eb1fa7"
+  },
+  {
+    "userId": "703006611035128018",
+    "result": "wghk",
+    "name": "Raye",
+    "discriminator": "5566",
+    "avatar": "0422edd1c40f466346de24f2e35b9328"
   }
 ]

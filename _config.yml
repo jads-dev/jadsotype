@@ -1,5 +1,4 @@
 exclude: [
-  "./eslinrc.json",
-  "./package.json",
-  "./update",
+  "package.json",
+  "update",
 ]

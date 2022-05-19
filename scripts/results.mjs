@@ -123,6 +123,9 @@ export function renderResults(hash) {
     return canvas;
   });
 
+  const winners = new Set(result);
+  console.log(winners);
+
   if (chart !== undefined) {
     chart.destroy();
   }
@@ -149,8 +152,7 @@ export function renderResults(hash) {
       elements: {
         point: {
           pointStyle: emoji,
-          pointBackgroundColor: colours,
-          radius: 20,
+          hitRadius: 25,
         },
       },
       scales: {
@@ -160,7 +162,12 @@ export function renderResults(hash) {
             display: false,
           },
           pointLabels: {
-            font: { size: 20 },
+            font: {
+              size: 20,
+              weight: ends.map(({ id }) =>
+                winners.has(id) ? "bold" : "normal",
+              ),
+            },
             color: colours,
           },
           grid: {

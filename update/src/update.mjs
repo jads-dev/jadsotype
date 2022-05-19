@@ -60,6 +60,10 @@ async function batched(items, operation, batchSize = 10) {
 
 async function updateUser(client, old) {
   try {
+    if (old.userId === undefined) {
+      console.error("Skipped user without userId.");
+      return old;
+    }
     const { username, discriminator, avatar } = await client.users.fetch(
       old.userId,
     );

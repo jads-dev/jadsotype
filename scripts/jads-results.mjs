@@ -53,7 +53,9 @@ export async function init() {
   };
 
   render(
-    product(...dichotomies.map(({ ends }) => ends)).map(gridCell),
+    html`<div>
+      ${product(...dichotomies.map(({ ends }) => ends)).map(gridCell)}
+    </div>`,
     document.getElementById("jads-results"),
   );
 }

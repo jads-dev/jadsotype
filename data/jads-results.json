@@ -538,10 +538,31 @@
     "avatar": "1626c3e89ac92ed0afd5d0fabff083b3"
   },
   {
-    "userId": "184825961592782848",
-    "result": "wghb",
-    "name": "Verdox",
-    "discriminator": "2641",
-    "avatar": "d57fdc7b94f32dc53212961d3f2fabac"
+    "userId": "386279836357885983",
+    "result": "wgpk",
+    "name": "Kojimbo",
+    "discriminator": "1138",
+    "avatar": "0cf4793ec886103d812566d90b46083e"
+  },
+  {
+    "userId": "114037621621129223",
+    "result": "wrhk",
+    "name": "franmrcx",
+    "discriminator": "6048",
+    "avatar": "54e86e26fed9d7f07acde0cf24c7eb2c"
+  },
+  {
+    "userId": "216233822264623104",
+    "result": "wrpb",
+    "name": "Nolc",
+    "discriminator": "1725",
+    "avatar": "8e220f73954d4c5d3acdda42fa97c900"
+  },
+  {
+    "userId": "261581355064754180",
+    "result": "wrpk",
+    "name": "Assistant Weeby",
+    "discriminator": "4468",
+    "avatar": "a_e12530241e444102e0e2bf98b09840a4"
   }
 ]

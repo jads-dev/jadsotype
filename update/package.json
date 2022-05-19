@@ -5,9 +5,13 @@
     "node": ">=18.0.0 <19.0.0"
   },
   "scripts": {
-    "update": "node ./src/update.mjs"
+    "update": "node ./src/update.mjs",
+    "update:dry-run": "node ./src/update.mjs --output-file=--",
+    "add": "node ./src/update.mjs --add-only",
+    "add:dry-run": "node ./src/update.mjs --add-only --output-file=--"
   },
   "dependencies": {
-    "discord.js": "^13.7.0"
+    "discord.js": "^13.7.0",
+    "yargs": "^17.5.1"
   }
 }

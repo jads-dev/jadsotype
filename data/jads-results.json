@@ -165,5 +165,19 @@
     "name": "IceNinja",
     "discriminator": "2096",
     "avatar": "ac1bb6d3f5ff2085650c0f4ab2b5a06e"
+  },
+  {
+    "userId": "92376182133100544",
+    "result": "wrpk",
+    "name": "Bulder",
+    "discriminator": "8965",
+    "avatar": "8a2246cd62035600a4229ba24667f628"
+  },
+  {
+    "userId": "109498018541080576",
+    "result": "wrhb",
+    "name": "Cerise",
+    "discriminator": "0162",
+    "avatar": "7203aef65e518b2d6db95122d326f1e6"
   }
 ]

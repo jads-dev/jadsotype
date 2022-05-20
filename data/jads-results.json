@@ -620,5 +620,82 @@
     "name": "Sciembe",
     "discriminator": "6653",
     "avatar": "56fcff59be7f64a2192c921f9007e5ba"
+  },
+  {
+    "userId": "171600713405825025",
+    "result": "wrhb",
+    "name": "Forcefield Ink",
+    "discriminator": "4978",
+    "avatar": "cf994ac65afa475a25476e66416c79ef"
+  },
+  {
+    "userId": "188224129122435072",
+    "result": "drpb",
+    "name": "Nexter420",
+    "discriminator": "5933",
+    "avatar": "6696505604c4b8c20117fa0acf1b073b"
+  },
+  {
+    "userId": "293816677836128256",
+    "result": "wghk",
+    "name": "cheren",
+    "discriminator": "3200",
+    "avatar": "d774fce1178cc489dcbaf96ee0a086db"
+  },
+  {
+    "userId": "162980828232548353",
+    "result": "wgpk",
+    "name": "Wakyx",
+    "discriminator": "3816",
+    "avatar": "18cca9e07bf60eaa1c2b47817acf8b17"
+  },
+  {
+    "userId": "159789981324279809",
+    "result": "dghb",
+    "name": "Kusoro",
+    "discriminator": "7271",
+    "avatar": "62ae65728b685d8e86003000fcfeb51f"
+  },
+  {
+    "userId": "467813651269812224",
+    "result": "dghk",
+    "name": "Dynwll (Read The Wandering Inn)",
+    "discriminator": "9096",
+    "avatar": "a2ac2e362733fd5b80874ded50adaf16"
+  },
+  {
+    "userId": "133625345457913856",
+    "result": "wrhb",
+    "name": "fennmata",
+    "discriminator": "4444",
+    "avatar": "0104ff1dfd38dc3ab01cef6d47c34c2f"
+  },
+  {
+    "userId": "359443626272751626",
+    "result": "drhb",
+    "name": "FluffyBee",
+    "discriminator": "8643",
+    "avatar": "e42f610688f36d6f34bf23c5bff87c73"
+  },
+  {
+    "userId": "830741346436120646",
+    "result": "dgpk",
+    "name": "SlangPunk",
+    "discriminator": "7043",
+    "avatar": "da731643d2793f54fd8fb7eba3ead38e"
+  },
+  {
+    "userId": "820957634609676338",
+    "result": "wgpk",
+    "name": "darkblueredmoon",
+    "discriminator": "0949",
+    "avatar": "60a27427b02077df277c64f1ba76dd76"
+  },
+  {
+    "userId": "244591529627222017",
+    "result": "drpk",
+    "name": "The Sausage Fattener",
+    "discriminator": "2263",
+    "avatar": "33009c237737ee0de470906de0fbd6ec"
   }
 ]

@@ -73,7 +73,7 @@
     "result": "wghk",
     "name": "Gluten Free Guy",
     "discriminator": "0287",
-    "avatar": "a_3220c092249724466f7797a236fdedb6"
+    "avatar": "a_4819a812a3fc122a84543532cacaf5e4"
   },
   {
     "userId": "187716911880994816",
@@ -332,7 +332,7 @@
     "result": "drhb",
     "name": "Chlowah",
     "discriminator": "2000",
-    "avatar": "cd9e9fec16ecbdb3664aa8e951606cc9"
+    "avatar": "72234307bf60575f49f10a38d9edd374"
   },
   {
     "userId": "236691950005256193",
@@ -675,7 +675,7 @@
     "result": "drhb",
     "name": "FluffyBee",
     "discriminator": "8643",
-    "avatar": "e42f610688f36d6f34bf23c5bff87c73"
+    "avatar": "3dcd8ba77de853cf4f5f538595cafccc"
   },
   {
     "userId": "830741346436120646",
@@ -697,5 +697,12 @@
     "name": "The Sausage Fattener",
     "discriminator": "2263",
     "avatar": "abde204e1dfa57154923bbfcc0a2e4c1"
+  },
+  {
+    "userId": "483633212342403073",
+    "result": "dgpb",
+    "name": "Serious Guy",
+    "discriminator": "8027",
+    "avatar": "4a7519c9bd573c640c20c526bac585e9"
   }
 ]

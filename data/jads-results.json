@@ -185,7 +185,7 @@
     "result": "wrhk",
     "name": "Truth",
     "discriminator": "0661",
-    "avatar": "1539fb1a7ff48f065a22d5279f2f5848"
+    "avatar": "750b2b3c6af08b7ad26a21163d35dab9"
   },
   {
     "userId": "226465847064002561",
@@ -724,7 +724,7 @@
     "result": "dgpk",
     "name": "wranglerpig",
     "discriminator": "2026",
-    "avatar": "1d584c770b7ef1b6c8f08822c36dec32"
+    "avatar": "6eb6a7a91974d7ca98299bb8e2aad048"
   },
   {
     "userId": "525013880553078795",
@@ -767,5 +767,33 @@
     "name": "えみ",
     "discriminator": "1997",
     "avatar": "a_11b87cf43a88da1e2f4ae1cd56c8cfff"
+  },
+  {
+    "userId": "264528103303282698",
+    "result": "dgpk",
+    "name": "Emily Rosewood",
+    "discriminator": "2835",
+    "avatar": "368de470963c2ac18a0747dc7702fcbe"
+  },
+  {
+    "userId": "781337512726888489",
+    "result": "dghb",
+    "name": "kingrat",
+    "discriminator": "1654",
+    "avatar": "0997f8ac35973493451d8a080a38c414"
+  },
+  {
+    "userId": "132166221054345216",
+    "result": "dgpk",
+    "name": "Aerolfos",
+    "discriminator": "8010",
+    "avatar": "ae3e06071faf91e56e9c0df9fe0b4227"
+  },
+  {
+    "userId": "830340137631612959",
+    "result": "drpk",
+    "name": "BrokenAlex",
+    "discriminator": "1048",
+    "avatar": "00dd94bc6b82cd86399140a8d93847c2"
   }
 ]

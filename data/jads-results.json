@@ -17,7 +17,7 @@
     "userId": "142511380845559809",
     "name": "Wok",
     "discriminator": "8240",
-    "avatar": "5a03b75acc99c7a8d3b1912935625cb1",
+    "avatar": "82abca4d02443159e283569a8d62d572",
     "result": "drpk"
   },
   {
@@ -157,7 +157,7 @@
     "result": "wrhk",
     "name": "Benpai",
     "discriminator": "3353",
-    "avatar": "4aecd44b8141c0739bcaf29309e71a26"
+    "avatar": "0ee0fc504dcfd48d51bce4b270d01a37"
   },
   {
     "userId": "268182456325242880",
@@ -262,7 +262,7 @@
     "result": "drpk",
     "name": "Jeremiah",
     "discriminator": "2263",
-    "avatar": "30242c35f374f1df2cfe18d2535a4a8f"
+    "avatar": "9a19570077cb3b6a5f96ab7b776f06c7"
   },
   {
     "userId": "191150794261659648",
@@ -794,6 +794,6 @@
     "result": "drpk",
     "name": "BrokenAlex",
     "discriminator": "1048",
-    "avatar": "00dd94bc6b82cd86399140a8d93847c2"
+    "avatar": "22b5ea205ac559502ad1a3dbdd95c201"
   }
 ]

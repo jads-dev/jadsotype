@@ -122,7 +122,7 @@
     "result": "wghk",
     "name": "Raye",
     "discriminator": "5566",
-    "avatar": "f38b00deb238c283805c53c6f362e0c8"
+    "avatar": "986db8f7ccc83874deb22d0f9329c91b"
   },
   {
     "userId": "311929891786457088",
@@ -150,14 +150,14 @@
     "result": "wrpk",
     "name": "Lyadhkhor",
     "discriminator": "6820",
-    "avatar": "22e3ec52c7c935a2f87726948a410ec9"
+    "avatar": "7744d4000ae41f0cf2e774fc7e45310c"
   },
   {
     "userId": "181499191053254656",
     "result": "wrhk",
     "name": "Benpai",
     "discriminator": "3353",
-    "avatar": "0ee0fc504dcfd48d51bce4b270d01a37"
+    "avatar": "baba6832df4a06b0f31f7e726b740250"
   },
   {
     "userId": "268182456325242880",
@@ -227,7 +227,7 @@
     "result": "dgpb",
     "name": "Maddison Baek",
     "discriminator": "7213",
-    "avatar": "ed0fdab6494dc02062ba8002657e50f2"
+    "avatar": "d10424b88de04989032a723d023808b1"
   },
   {
     "userId": "547730112452231173",
@@ -360,7 +360,7 @@
     "result": "wrhk",
     "name": "EvilPanda",
     "discriminator": "8782",
-    "avatar": "29c98a5960ebe1f08025e034a4732774"
+    "avatar": "fe2806d105fcc4426170df449a321555"
   },
   {
     "userId": "143968238215102464",
@@ -577,7 +577,7 @@
     "result": "wghb",
     "name": "Guppy",
     "discriminator": "7406",
-    "avatar": "50c286e3b72e5b08db578a6292ee7acf"
+    "avatar": "0df5a00651fbd5a751faf9453d538e6d"
   },
   {
     "userId": "295405741450461187",
@@ -619,7 +619,7 @@
     "result": "wgpb",
     "name": "Sciembe",
     "discriminator": "6653",
-    "avatar": "aa328e6e745a7e45bee53638110acbd5"
+    "avatar": "83da48e3574cc31aa3537fedd0d10dda"
   },
   {
     "userId": "171600713405825025",
@@ -647,7 +647,7 @@
     "result": "wgpk",
     "name": "Wakyx",
     "discriminator": "3816",
-    "avatar": "f6596c81f1d817dad0e2661361494d71"
+    "avatar": "333d4d463f61f966730b2ac45b648327"
   },
   {
     "userId": "159789981324279809",
@@ -794,6 +794,6 @@
     "result": "drpk",
     "name": "BrokenAlex",
     "discriminator": "1048",
-    "avatar": "7fa3077d5ffa650f0486833f5e9add49"
+    "avatar": "bcfa6bf149b15f65d2b3b56c74b75f5b"
   }
 ]

@@ -728,7 +728,7 @@
   },
   {
     "userId": "525013880553078795",
-    "result": "wghb",
+    "result": "dgpb",
     "name": "snek pliskin",
     "discriminator": "8677",
     "avatar": "b4e0927f201c56f36fd274269838f4fb"
@@ -1088,5 +1088,19 @@
     "name": "Aro",
     "discriminator": "4016",
     "avatar": "e74b028c9a79b827ffb101e2bdc70bab"
+  },
+  {
+    "userId": "701528112625614858",
+    "result": "dgpb",
+    "name": "Simple",
+    "discriminator": "6676",
+    "avatar": "007cf1319b82e1a2713585e34b997272"
+  },
+  {
+    "userId": "305009154639265792",
+    "result": "wgpb",
+    "name": "Eye Of Psy",
+    "discriminator": "5212",
+    "avatar": "c439fa977c6558fb91b3c6838a4a0d50"
   }
 ]

@@ -112,7 +112,7 @@
   },
   {
     "userId": "190188039719485440",
-    "result": "wgpk",
+    "result": "wghb",
     "name": "Kryptic",
     "discriminator": "0008",
     "avatar": "5aff30920746c19cfc2676c0d8414f0f"
@@ -861,7 +861,7 @@
   },
   {
     "userId": "229679346569183234",
-    "result": "wgpk",
+    "result": "wghk",
     "name": "Chararara",
     "discriminator": "0001",
     "avatar": "dc728466c4d3954b46435ec5bee4c417"
@@ -927,5 +927,75 @@
     "name": "Telephone_ghost",
     "discriminator": "1800",
     "avatar": "7ff4f6d394e9772560b867a35f5e4f95"
+  },
+  {
+    "userId": "446780611772809227",
+    "result": "drhb",
+    "name": "Amusername",
+    "discriminator": "9710",
+    "avatar": "6cefa878f441e06a7fd4b435f3fed522"
+  },
+  {
+    "userId": "841310710814081035",
+    "result": "drpb",
+    "name": "Steeljester",
+    "discriminator": "1667",
+    "avatar": "75053fb5639fd2d93b1ebc41aad6fcc9"
+  },
+  {
+    "userId": "249154878495129601",
+    "result": "wrhb",
+    "name": "Not So Big Iron",
+    "discriminator": "0251",
+    "avatar": "a116894d0a296b4cd403b5c5745f82f3"
+  },
+  {
+    "userId": "555164930005794836",
+    "result": "wrhb",
+    "name": "WamySauce",
+    "discriminator": "3944",
+    "avatar": "c46ef8420b7a7686f5bde0cfe36fdf63"
+  },
+  {
+    "userId": "475562868058750979",
+    "result": "wrhb",
+    "name": "Paddle",
+    "discriminator": "0276",
+    "avatar": "7b445e65ebff42bf6d96406ac7d0ce4b"
+  },
+  {
+    "userId": "209050180010508288",
+    "result": "wrpb",
+    "name": "BandanaShark",
+    "discriminator": "7927",
+    "avatar": "3f5d0052a7a53f945585f7062e864398"
+  },
+  {
+    "userId": "178187098929496064",
+    "result": "wrhk",
+    "name": "sacrosapphic",
+    "discriminator": "0445",
+    "avatar": "85c43be82da4b74624ca5a1040868dec"
+  },
+  {
+    "userId": "238071602229673985",
+    "result": "drpb",
+    "name": "Sedicentefricchettone",
+    "discriminator": "7358",
+    "avatar": "c55bf1b5a82f29da81ebeaa7e96c9678"
+  },
+  {
+    "userId": "339433539827400724",
+    "result": "wgpk",
+    "name": "Mahmoud",
+    "discriminator": "0688",
+    "avatar": "0ece1a95470bf3fa5209cd38d2d7ec1d"
+  },
+  {
+    "userId": "917680977936023592",
+    "result": "drpk",
+    "name": "narakerpraani",
+    "discriminator": "3311",
+    "avatar": "fcfd0f8054582168ddf5292cab12f302"
   }
 ]

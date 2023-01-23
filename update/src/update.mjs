@@ -98,9 +98,9 @@ async function main(
   for (const result of results) {
     const existing = byUser.get(result.userId);
     if (existing) {
-      console.error(existing);
-      console.error(result);
-      throw new Error("Duplicate user ids.");
+      console.warn(`Duplicated user: ${result.userId}.`);
+    } else {
+      byUser.set(result.userId, result);
     }
   }
 
@@ -113,7 +113,7 @@ async function main(
 
   const updatedResults = await batched(results, update, 10);
 
-  await client.destroy();
+  client.destroy();
 
   const outputData = `${JSON.stringify(updatedResults, undefined, 2)}\n`;
   if (outputFile !== "--") {

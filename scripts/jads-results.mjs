@@ -29,6 +29,10 @@ export async function init() {
             title="${name}#${discriminator}"
             src="https://cdn.discordapp.com/${avatarUrl}"
           />
+          <p>
+            <span class="name">${name}</span
+            ><span class="discriminator">#${discriminator}</span>
+          </p>
         </li>
       `;
     } else {
@@ -52,10 +56,23 @@ export async function init() {
     `;
   };
 
+  const resultRoot = document.getElementById("jads-results");
+
+  const namesToggled = (target) => {
+    if (target.checked) {
+      resultRoot.classList.add("names");
+    } else {
+      resultRoot.classList.remove("names");
+    }
+  };
+  const namesToggle = document.getElementById("names");
+  namesToggle.addEventListener("click", ({ target }) => namesToggled(target));
+  namesToggled(namesToggle);
+
   render(
     html`<div>
       ${product(...dichotomies.map(({ ends }) => ends)).map(gridCell)}
     </div>`,
-    document.getElementById("jads-results"),
+    resultRoot,
   );
 }

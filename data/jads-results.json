@@ -28,13 +28,6 @@
     "result": "wrhb"
   },
   {
-    "userId": "848990852389797940",
-    "name": "Bralle",
-    "discriminator": "2580",
-    "avatar": "338d546698e1629ef1b3144b7e54ad0e",
-    "result": "wgpb"
-  },
-  {
     "userId": "110440779540885504",
     "name": "Algent",
     "discriminator": "0143",
@@ -497,7 +490,7 @@
   },
   {
     "userId": "226729560723423232",
-    "result": "dghk",
+    "result": "dgpk",
     "name": "crowned",
     "discriminator": "1312",
     "avatar": "a_2fed239700b2e20b80457fbdc07fbb69"
@@ -693,7 +686,7 @@
   },
   {
     "userId": "244591529627222017",
-    "result": "drpk",
+    "result": "dgpk",
     "name": "The Sausage Fattener",
     "discriminator": "2263",
     "avatar": "a_4b1bea71d11483b7f2cd2263cdf6a6ee"
@@ -741,15 +734,8 @@
     "avatar": "5c4b6695156626fa8ded86303d3626cc"
   },
   {
-    "userId": "490343553969553418",
-    "result": "dgpk",
-    "name": "rankie13",
-    "discriminator": "1919",
-    "avatar": "ed74919935f2df8dd8e193785ae7cc52"
-  },
-  {
     "userId": "848990852389797940",
-    "result": "drpb",
+    "result": "wgpb",
     "name": "Bralle",
     "discriminator": "2580",
     "avatar": "338d546698e1629ef1b3144b7e54ad0e"
@@ -1152,13 +1138,6 @@
     "avatar": "a4a631b5002977affe675a0a9ebfd308"
   },
   {
-    "userId": "200794099119292418",
-    "result": "dgpk",
-    "name": "ManicDerrikk",
-    "discriminator": "1377",
-    "avatar": "5789aec42d2166c093a0b6db26c2d3ed"
-  },
-  {
     "userId": "355067587370942465",
     "result": "wgpb",
     "name": "Don Gor",
@@ -1194,13 +1173,6 @@
     "avatar": "2cc1fc6f4df354e9004df7b74e6daf8e"
   },
   {
-    "userId": "362366469029232650",
-    "result": "dgpk",
-    "name": "UltraLG",
-    "discriminator": "6712",
-    "avatar": "a9adb783e3648451ea7d1ecba40d3627"
-  },
-  {
     "userId": "965433267425775626",
     "result": "wrhb",
     "name": "Druss_Malka",
@@ -1223,7 +1195,7 @@
   },
   {
     "userId": "199263137487257600",
-    "result": "wgpk",
+    "result": "wghk",
     "name": "Símon",
     "discriminator": "2603",
     "avatar": "a_021d13422e0c5b50ba6476696e186da3"
@@ -1248,12 +1220,5 @@
     "name": "Hannah!",
     "discriminator": "1830",
     "avatar": "11f513b12db809abbe3576938abd7c8e"
-  },
-  {
-    "userId": "199263137487257600",
-    "result": "wghk",
-    "name": "Símon",
-    "discriminator": "2603",
-    "avatar": "a_021d13422e0c5b50ba6476696e186da3"
   }
 ]

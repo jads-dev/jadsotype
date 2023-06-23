@@ -268,14 +268,14 @@
     "result": "wghb",
     "name": "Michał24",
     "discriminator": "6965",
-    "avatar": "64f309b6ddd72c6e6172f882dbaa65c6"
+    "avatar": "c1ebb3f8814b64e37b1d682861d2d013"
   },
   {
     "userId": "486297786086588439",
     "result": "wghb",
     "name": "_naya_",
     "discriminator": "0",
-    "avatar": "dc3ff94a068d82fd2b6a019aed5c7ccc"
+    "avatar": "3656fe5792bff5ff6b1ef3eee68bc108"
   },
   {
     "userId": "284672116454981633",
@@ -387,7 +387,7 @@
     "result": "wghb",
     "name": "retinas",
     "discriminator": "0",
-    "avatar": "9ef498959e6657503a8d4e85d012251a"
+    "avatar": "fa642aeb0723f609d3c6a0ef074c72ce"
   },
   {
     "userId": "322481226449682432",
@@ -1042,8 +1042,9 @@
   {
     "userId": "977980457075507300",
     "result": "drpb",
-    "name": "sarahanderson",
-    "discriminator": "3735"
+    "name": "sarah.anderson",
+    "discriminator": "0",
+    "avatar": "a4a40d29e5c4728711690f9c209fa426"
   },
   {
     "userId": "420585244249423892",
@@ -1209,8 +1210,8 @@
   {
     "userId": "1017983557672644728",
     "result": "wrpb",
-    "name": "ρ Solata",
-    "discriminator": "8804",
+    "name": "rhosolata",
+    "discriminator": "0",
     "avatar": "14e4c5d047dc4d92f7f05f7e417d4dc6"
   },
   {

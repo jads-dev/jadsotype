@@ -2,265 +2,222 @@
   {
     "userId": "132972952311431168",
     "name": "lattyware",
-    "discriminator": "0",
     "avatar": "ecee955eb0a1a95d34f7fedb0eead05c",
     "result": "wgpb"
   },
   {
-    "userId": "206565348349050881",
-    "name": "Deleted User 63a8ba0c",
-    "discriminator": "6362",
-    "result": "wrhb"
-  },
-  {
     "userId": "142511380845559809",
     "name": "constantineishere",
-    "discriminator": "0",
     "avatar": "cad855d12cddc2e979c30a89e4763254",
     "result": "drpk"
   },
   {
     "userId": "132652716337004544",
     "name": "hypotheticalwalrus",
-    "discriminator": "0",
     "avatar": "c5a92ccc224f7d703548dcd8b251d0eb",
     "result": "wrhb"
   },
   {
     "userId": "110440779540885504",
     "name": "algent",
-    "discriminator": "0",
     "avatar": "565b5f5185869e8c4332a26367bdc65b",
     "result": "wrhk"
   },
   {
     "userId": "373290454730407936",
     "result": "wrpb",
-    "name": "muchmoonies",
-    "discriminator": "0"
+    "name": "muchmoonies"
   },
   {
     "userId": "386969949891067904",
     "result": "wgpb",
     "name": "draana",
-    "discriminator": "0",
     "avatar": "aa2116ab2a2d0b7376d3d28aadba3d66"
   },
   {
     "userId": "175715445255438337",
     "result": "dghk",
     "name": "crudeoil",
-    "discriminator": "0",
     "avatar": "7d7ea072b9f47a9af86f013666d60bd2"
   },
   {
     "userId": "80269415228121088",
     "result": "dgpb",
     "name": "theqwertiest",
-    "discriminator": "0",
     "avatar": "90369ef0deaa225cdcf29509d61b7b9e"
   },
   {
     "userId": "173623695548481536",
     "result": "wghk",
     "name": "glutenfreeguy",
-    "discriminator": "0",
     "avatar": "a_4819a812a3fc122a84543532cacaf5e4"
   },
   {
     "userId": "187716911880994816",
     "result": "dgpk",
     "name": "pubsub",
-    "discriminator": "0",
     "avatar": "273493fd265b41b044788f4d639ee8fb"
   },
   {
     "userId": "195910927873343488",
     "result": "dgpb",
     "name": "kyonner",
-    "discriminator": "0",
     "avatar": "19a438c7b8399202a2b378cbe70e1517"
   },
   {
     "userId": "230662897049665536",
     "result": "wgpk",
     "name": "magzhik",
-    "discriminator": "0",
     "avatar": "193022abe67007daffbfdcb4e81bf192"
   },
   {
     "userId": "139045625315590144",
     "result": "wrhb",
     "name": "sabriel",
-    "discriminator": "0",
     "avatar": "51969d2b3110de02662ce86af59dde41"
   },
   {
     "userId": "184408178224660480",
     "result": "wrhb",
     "name": "utemt6",
-    "discriminator": "0",
     "avatar": "b505765d1ea5bcf5f408894cb21ac442"
   },
   {
     "userId": "190188039719485440",
     "result": "wghb",
     "name": "jelly386",
-    "discriminator": "0",
     "avatar": "7f7dc8f66608a1769919315154466145"
   },
   {
     "userId": "703006611035128018",
     "result": "wghk",
     "name": "callmeraye",
-    "discriminator": "0",
     "avatar": "204241c7c88aa5f24a11fbadd7af6389"
   },
   {
     "userId": "311929891786457088",
     "result": "drpb",
     "name": "elzurdazo",
-    "discriminator": "0",
     "avatar": "402a701e639e6f2582b5187fabed380c"
   },
   {
     "userId": "153265433695223809",
     "result": "wghb",
     "name": "torchrr",
-    "discriminator": "0",
     "avatar": "565b83e597ad414b61e50e9ebe012153"
   },
   {
     "userId": "218230497657094145",
     "result": "wgpb",
     "name": "falzar25",
-    "discriminator": "0",
     "avatar": "8107a4019b47647c95aa811e13bbed68"
   },
   {
     "userId": "324583662450507777",
     "result": "wrpk",
     "name": "lyadhkhor.",
-    "discriminator": "0",
     "avatar": "7efa4255f5794fca3596ce0eb751f47b"
   },
   {
     "userId": "181499191053254656",
     "result": "wrhk",
     "name": "benpai21",
-    "discriminator": "0",
     "avatar": "4e0d3d62c08cdfe30d39d157a93ca574"
   },
   {
     "userId": "268182456325242880",
     "result": "wrpb",
     "name": "iceninja",
-    "discriminator": "0",
     "avatar": "44cf869403944e3d9e3a7bc88074d395"
   },
   {
     "userId": "92376182133100544",
     "result": "wrpk",
     "name": "bulder",
-    "discriminator": "0",
     "avatar": "0d6caa2b1b6cf2b2c02f3fa291e55db0"
   },
   {
     "userId": "109498018541080576",
     "result": "wrhb",
     "name": "cerisepink",
-    "discriminator": "0",
     "avatar": "ad7004f8b700c2f0da0a5c8f299625f2"
   },
   {
     "userId": "143013371522842624",
     "result": "wrhk",
     "name": "truth12885",
-    "discriminator": "0",
     "avatar": "db73bd30fe02e560b553a33454b39546"
   },
   {
     "userId": "226465847064002561",
     "result": "wrpb",
     "name": "soundchaser",
-    "discriminator": "0",
     "avatar": "a_04ab6cfdec43c9ccf991bffe4f355687"
   },
   {
     "userId": "153302887290634240",
     "result": "wghb",
     "name": "welldoitlive",
-    "discriminator": "0",
     "avatar": "3d0730f0e5ea267e49b59d5ceadb8aaa"
   },
   {
     "userId": "123243459774513152",
     "result": "wghb",
     "name": "cjlj",
-    "discriminator": "0",
     "avatar": "beadb8bdb895e314dac939240ce3224e"
   },
   {
     "userId": "102817156990779392",
     "result": "wghb",
     "name": "sparkflow",
-    "discriminator": "0",
     "avatar": "5839b8b1a8244d132b7da5ea5dccacf8"
   },
   {
     "userId": "295451717875662859",
     "result": "wgpb",
     "name": "angryaboutelves",
-    "discriminator": "0",
     "avatar": "6f3986d3b41a9858c64c01b4c8edbcd4"
   },
   {
     "userId": "277382394355384321",
     "result": "dgpb",
     "name": "maddisonbaek",
-    "discriminator": "0",
     "avatar": "23e768d816a00441d139d0dc0d606206"
   },
   {
     "userId": "547730112452231173",
     "result": "drpb",
     "name": "altair3454",
-    "discriminator": "0",
     "avatar": "fa7abcd29fdc1cbc36825432993f9dfc"
   },
   {
     "userId": "277625677552025600",
     "result": "drpb",
     "name": "slintofficial",
-    "discriminator": "0",
     "avatar": "0012cb9906dd1665a9dff5fb4857dd36"
   },
   {
     "userId": "453658610518589441",
     "result": "drpb",
     "name": "abop.",
-    "discriminator": "0",
     "avatar": "407713cb3096a19ce41b3e76ab4683b6"
   },
   {
     "userId": "84480762794999808",
     "result": "wghb",
     "name": "manofshadows",
-    "discriminator": "0",
     "avatar": "22ae866dd0b6a83572e5472d160199d4"
   },
   {
     "userId": "207198958064369665",
     "result": "drpk",
     "name": "jeremiah2263",
-    "discriminator": "0",
     "avatar": "22f82094163a0e4df4a4a20ba630a297"
   },
   {
     "userId": "191150794261659648",
     "result": "drhb",
     "name": "umbrene",
-    "discriminator": "0",
     "avatar": "6ac351467dbe58b390f38f98057404a3"
   },
   {
@@ -274,259 +231,222 @@
     "userId": "486297786086588439",
     "result": "wghb",
     "name": "_naya_",
-    "discriminator": "0",
-    "avatar": "0d015ee1322943d52a8dd355edf1c4e1"
+    "avatar": "77d922a25e28e656743b5003147b277d"
   },
   {
     "userId": "284672116454981633",
     "result": "wghk",
     "name": "kaylio64",
-    "discriminator": "0",
     "avatar": "2bf8091576d8f072f0717215c4af2b3d"
   },
   {
     "userId": "362366469029232650",
     "result": "dgpk",
     "name": "ultra_lg",
-    "discriminator": "0",
     "avatar": "6c676706c73e71f45093c31d548556d4"
   },
   {
     "userId": "515435657603055677",
     "result": "wgpb",
     "name": "wardrimmer",
-    "discriminator": "0",
     "avatar": "daa2971246c838d8ee9453cb66dd3784"
   },
   {
     "userId": "400045547202805770",
     "result": "wghb",
     "name": "voltivemmi_9307",
-    "discriminator": "0",
     "avatar": "a9d804326e64404bf33a3787ef2cbbca"
   },
   {
     "userId": "139136163159080971",
     "result": "dgpk",
     "name": "garioshi",
-    "discriminator": "0",
     "avatar": "8b2bc8f084a300db433345e45c20fa15"
   },
   {
     "userId": "186125125886672896",
     "result": "wghk",
     "name": "gordotforrot",
-    "discriminator": "0",
     "avatar": "3f83a45b073cc2ff119751a8ebdf27fb"
   },
   {
     "userId": "165184478816239617",
     "result": "drhb",
     "name": "chlowah",
-    "discriminator": "0",
     "avatar": "629ad4f6540b9aea7f20522cf26066b2"
   },
   {
     "userId": "236691950005256193",
     "result": "wgpb",
     "name": "thuddy_bunger",
-    "discriminator": "0",
     "avatar": "eae1e3938e6d3c18047eb8174a23ff8e"
   },
   {
     "userId": "234864593007149057",
     "result": "wghk",
     "name": "sqrrk",
-    "discriminator": "0",
     "avatar": "40086b5b6020b65c229c06dea37da8da"
   },
   {
     "userId": "101566410727112704",
     "result": "dgpb",
     "name": "wuggynaut",
-    "discriminator": "0",
     "avatar": "7acd9e21c4c334be5655d7a18586332d"
   },
   {
     "userId": "286133035986845697",
     "result": "wrhk",
     "name": "ohnoitspanda",
-    "discriminator": "0",
     "avatar": "62722a967859a9304f69c303f4c4606e"
   },
   {
     "userId": "143968238215102464",
     "result": "wgpk",
     "name": "k5josh",
-    "discriminator": "0",
     "avatar": "efa879ecf3489b8c0eb6de9e593006b6"
   },
   {
     "userId": "409072018575589378",
     "result": "wrpk",
     "name": "lady_nika",
-    "discriminator": "0",
     "avatar": "74c569600e8bb17f1c15510936c52c4d"
   },
   {
     "userId": "400033975940415498",
     "result": "drhk",
     "name": "randomeer",
-    "discriminator": "0",
     "avatar": "9ca64354015ec4a737a1149926e39028"
   },
   {
     "userId": "222353280309788672",
     "result": "drpk",
     "name": "omarequiem",
-    "discriminator": "0",
     "avatar": "8438c8b1168c2ac1eb9612cbd7973e06"
   },
   {
     "userId": "315470441206513666",
     "result": "wghb",
     "name": "retinas",
-    "discriminator": "0",
     "avatar": "013da81ed868141a5c41ad942ef0a378"
   },
   {
     "userId": "322481226449682432",
     "result": "wghb",
     "name": "sarcedor",
-    "discriminator": "0",
     "avatar": "d0e998d211c6256fa1c4ed79114e2747"
   },
   {
     "userId": "262334231672258560",
     "result": "wghb",
     "name": "silkspire",
-    "discriminator": "0",
     "avatar": "489f327714bebe655f11a0ae63b05bb4"
   },
   {
     "userId": "490343553969553418",
     "result": "dgpk",
     "name": "rankie13",
-    "discriminator": "0",
     "avatar": "31c8f1fe3eb1cf0c252e5caef387e3e0"
   },
   {
     "userId": "160990967980097536",
     "result": "wgpk",
     "name": "wiilink100",
-    "discriminator": "0",
     "avatar": "68e8fa2fda1b8023ec12c9e3c12cc079"
   },
   {
     "userId": "307538631420280832",
     "result": "drhb",
     "name": "botcommander",
-    "discriminator": "0",
     "avatar": "5628d5b8b66465673f30ec5249c9d4b3"
   },
   {
     "userId": "334804810731618304",
     "result": "wghk",
     "name": "nanukou",
-    "discriminator": "0",
     "avatar": "c81061eb162d51af2b3ee9a47f57a085"
   },
   {
     "userId": "244613368441208832",
     "result": "dghb",
     "name": "hydus",
-    "discriminator": "0",
     "avatar": "a_955879b8e88d72713484ba23dbd62ec3"
   },
   {
     "userId": "81580955956936704",
     "result": "dgpk",
     "name": "rotyler",
-    "discriminator": "0",
     "avatar": "a67f6fedd2ca44e2ac517875b3079dc3"
   },
   {
     "userId": "234422951045365770",
     "result": "wgpk",
     "name": "meemdog",
-    "discriminator": "0",
     "avatar": "9c3f4eee765ca5c2daf8bc6a351c8884"
   },
   {
     "userId": "271708197566283776",
     "result": "drpb",
     "name": "soirees",
-    "discriminator": "0",
     "avatar": "f519cd5c3d587a3f3870ec38cb83a045"
   },
   {
     "userId": "202050015777128449",
     "result": "wgpk",
     "name": "zozo5002",
-    "discriminator": "0",
     "avatar": "a5f1e21dba889f9a82ea88a821736d17"
   },
   {
     "userId": "192467598275772417",
     "result": "wrpb",
     "name": "anumess",
-    "discriminator": "0",
     "avatar": "f5133409901105830dc2629c46c4f1b7"
   },
   {
     "userId": "273482473088745472",
     "result": "wrpb",
     "name": "arutheed",
-    "discriminator": "0",
     "avatar": "5ae14b78e1ac88cf8b57b58f21347366"
   },
   {
     "userId": "332262346796040196",
     "result": "wghb",
     "name": "kerkenes",
-    "discriminator": "0",
     "avatar": "dc6a241030e993a7961b656d2f19ea00"
   },
   {
     "userId": "226729560723423232",
     "result": "dgpk",
     "name": "ghostg1rl",
-    "discriminator": "0",
     "avatar": "b819d5d4db106e6efaf81901b99eabd6"
   },
   {
     "userId": "413804742289129483",
     "result": "dghb",
     "name": "bouncybob",
-    "discriminator": "0",
     "avatar": "2ad3d17909e62b7cb864db8e9e11732c"
   },
   {
     "userId": "184825961592782848",
     "result": "wghb",
     "name": "verdox",
-    "discriminator": "0",
     "avatar": "b1e8ccbcc9bec06afe4534e38dcf7d52"
   },
   {
     "userId": "307213273005293578",
     "result": "dghb",
     "name": "mitchmaster",
-    "discriminator": "0",
     "avatar": "a3f65f664e10319b903fd479497c3d94"
   },
   {
     "userId": "256263867728920577",
     "result": "drpb",
     "name": "bloopybloopz",
-    "discriminator": "0",
     "avatar": "a63391c509c06299f8607f573f668465"
   },
   {
     "userId": "87038653188018176",
     "result": "dgpb",
     "name": "fangs_up7",
-    "discriminator": "0",
     "avatar": "1626c3e89ac92ed0afd5d0fabff083b3"
   },
   {
@@ -540,63 +460,54 @@
     "userId": "114037621621129223",
     "result": "wrhk",
     "name": "franmrcx",
-    "discriminator": "0",
     "avatar": "54e86e26fed9d7f07acde0cf24c7eb2c"
   },
   {
     "userId": "216233822264623104",
     "result": "wrpb",
     "name": "nolc",
-    "discriminator": "0",
     "avatar": "8e220f73954d4c5d3acdda42fa97c900"
   },
   {
     "userId": "261581355064754180",
     "result": "wrpk",
     "name": "assistantweeby",
-    "discriminator": "0",
     "avatar": "f2eec6ce4e25b2ebc2439f97343813b9"
   },
   {
     "userId": "365809849180880896",
     "result": "wgpb",
     "name": "omariandisco",
-    "discriminator": "0",
     "avatar": "57991b268f587c5905740d5820c337c5"
   },
   {
     "userId": "152146109014212608",
     "result": "wghb",
     "name": "guppy7",
-    "discriminator": "0",
     "avatar": "7795bdafde87fd644d6479c6924bba4c"
   },
   {
     "userId": "295405741450461187",
     "result": "drpk",
     "name": "manofanswers",
-    "discriminator": "0",
     "avatar": "f6889d636d376b971118f3372b75a335"
   },
   {
     "userId": "459856685448691732",
     "result": "dgpk",
     "name": "mimi9999",
-    "discriminator": "0",
     "avatar": "6d717be5d21a17d97242215e7a33de0d"
   },
   {
     "userId": "274549524754595841",
     "result": "wgpk",
     "name": "eta8",
-    "discriminator": "0",
     "avatar": "05c78f2ca04ba309e4cb89a3ec3ca933"
   },
   {
     "userId": "442149541815517194",
     "result": "dgpk",
     "name": "chrome_dollar",
-    "discriminator": "0",
     "avatar": "85b893789490029c38d4e829c72a5009"
   },
   {
@@ -610,42 +521,36 @@
     "userId": "381887376009461762",
     "result": "wgpb",
     "name": "sciembe",
-    "discriminator": "0",
     "avatar": "83da48e3574cc31aa3537fedd0d10dda"
   },
   {
     "userId": "171600713405825025",
     "result": "wrhb",
     "name": "forcefield_ink",
-    "discriminator": "0",
     "avatar": "5dda596454a87bd12761fe6dd2a40e2a"
   },
   {
     "userId": "188224129122435072",
     "result": "drpb",
     "name": "nexter420",
-    "discriminator": "0",
     "avatar": "6696505604c4b8c20117fa0acf1b073b"
   },
   {
     "userId": "293816677836128256",
     "result": "wghk",
     "name": "_cheren",
-    "discriminator": "0",
     "avatar": "a14ada70b65cc7104dcb4f50f963037a"
   },
   {
     "userId": "162980828232548353",
     "result": "wgpk",
     "name": "wakyx",
-    "discriminator": "0",
     "avatar": "333d4d463f61f966730b2ac45b648327"
   },
   {
     "userId": "159789981324279809",
     "result": "dghb",
     "name": "kusoro",
-    "discriminator": "0",
     "avatar": "ea8dbab94bf1eb888bc7f7eb1a32ab78"
   },
   {
@@ -659,307 +564,263 @@
     "userId": "133625345457913856",
     "result": "wrhb",
     "name": "fennmata",
-    "discriminator": "0",
     "avatar": "97c94d06467b3198c1eb26815df46875"
   },
   {
     "userId": "359443626272751626",
     "result": "drhb",
     "name": ".fluffybee",
-    "discriminator": "0",
     "avatar": "a_298ab43b39adecefdc846519adf8e654"
   },
   {
     "userId": "830741346436120646",
     "result": "dgpk",
     "name": "slangpunk",
-    "discriminator": "0",
     "avatar": "94ad9249c50bf14fba49ff978adc071c"
   },
   {
     "userId": "820957634609676338",
     "result": "wgpk",
     "name": "darkblueredmoon",
-    "discriminator": "0",
     "avatar": "60a27427b02077df277c64f1ba76dd76"
   },
   {
     "userId": "244591529627222017",
     "result": "dgpk",
     "name": "thesausagefattener",
-    "discriminator": "0",
     "avatar": "b5826e2feb82ef60da79e5855811af40"
   },
   {
     "userId": "483633212342403073",
     "result": "dgpb",
     "name": "seriousguy",
-    "discriminator": "0",
     "avatar": "3979dbd01942f722acd32460d547d036"
   },
   {
     "userId": "344328028240871424",
     "result": "wghb",
     "name": "super_ice",
-    "discriminator": "0",
     "avatar": "b0b7d83dc61308d77f09af4f00118005"
   },
   {
     "userId": "774744273442177074",
     "result": "dgpk",
     "name": "lowlifexy",
-    "discriminator": "0",
     "avatar": "135c1094f67d913c91088ef4851325e0"
   },
   {
     "userId": "148479512261296129",
     "result": "dgpk",
     "name": "wranglerpig",
-    "discriminator": "0",
     "avatar": "dd4cd41396e4e0005dfe6542e023a716"
   },
   {
     "userId": "525013880553078795",
     "result": "dgpb",
     "name": "snek_pliskin",
-    "discriminator": "0",
     "avatar": "03f741707018ae65153b29c8cdd647e1"
   },
   {
     "userId": "333396256309116939",
     "result": "dgpb",
     "name": "ouroboros8254",
-    "discriminator": "0",
     "avatar": "7685e3d17687181a66ad7feb56a1e9be"
   },
   {
     "userId": "848990852389797940",
     "result": "wgpb",
     "name": "bralle",
-    "discriminator": "0",
     "avatar": "99a6de5fe13e0ccd61223f677154b7d0"
   },
   {
     "userId": "156456912286777344",
     "result": "wrpb",
     "name": "eterna1ice",
-    "discriminator": "0",
     "avatar": "84add77d028ff65d3470fdf1f90fe0a9"
   },
   {
     "userId": "174552631811899394",
     "result": "wghb",
     "name": "etherealhorizon",
-    "discriminator": "0",
     "avatar": "a_84b9ac71f10105054784d484dbd4b3d2"
   },
   {
     "userId": "264528103303282698",
     "result": "dgpk",
     "name": "emilyrosewood",
-    "discriminator": "0",
     "avatar": "368de470963c2ac18a0747dc7702fcbe"
   },
   {
     "userId": "781337512726888489",
     "result": "dghb",
     "name": "missoranje",
-    "discriminator": "0",
     "avatar": "5736ba2e253fd94490fe639d9359e247"
   },
   {
     "userId": "132166221054345216",
     "result": "dgpk",
     "name": "aerolfos",
-    "discriminator": "0",
     "avatar": "3a10bf00208a029e5b8515b48343390c"
   },
   {
     "userId": "830340137631612959",
     "result": "drpk",
     "name": "brokenalex1048",
-    "discriminator": "0",
     "avatar": "419c7f689411099525cf0ef09a41d619"
   },
   {
     "userId": "689543177484370162",
     "result": "wrhk",
     "name": "xephorix512",
-    "discriminator": "0",
     "avatar": "47fa5a7699e0f1a4bbec8f4f438f0ae5"
   },
   {
     "userId": "416275545664520202",
     "result": "wgpk",
     "name": "mr_kiwi_",
-    "discriminator": "0",
     "avatar": "123293cfbb32830fe2a78996f08cc902"
   },
   {
     "userId": "73494335387082752",
     "result": "wgpk",
     "name": "sysid_ace",
-    "discriminator": "0",
     "avatar": "6ccae84cd23a9817fd3de605a0f6cae1"
   },
   {
     "userId": "205961821000040449",
     "result": "wrhk",
     "name": "rex_yaldabaoth",
-    "discriminator": "0",
     "avatar": "cb78ece2a4b753060c3bd1454d1abaff"
   },
   {
     "userId": "268260643075915777",
     "result": "wrpk",
     "name": "ssslitherysssnek",
-    "discriminator": "0",
     "avatar": "156373bcd6235caa2b1a01ebb3f784f3"
   },
   {
     "userId": "96626643195432960",
     "result": "drpb",
     "name": "cause_key",
-    "discriminator": "0",
     "avatar": "e38f8abfd738faad26e0773a9541b8f5"
   },
   {
     "userId": "814231178437328936",
     "result": "wghk",
     "name": "countakira",
-    "discriminator": "0",
     "avatar": "6e396defc945f0d2e30e52d22feda15b"
   },
   {
     "userId": "218764427032264704",
     "result": "wgpb",
     "name": "capsador",
-    "discriminator": "0",
     "avatar": "f59ee5cf7df801e933e3a282ae5c7460"
   },
   {
     "userId": "209861137305436160",
     "result": "dgpk",
     "name": "slink1701",
-    "discriminator": "0",
     "avatar": "86ca1250c6c6e2bd2e2e0fa3727f7c69"
   },
   {
     "userId": "229679346569183234",
     "result": "wghk",
     "name": "the_first_lilly",
-    "discriminator": "0",
     "avatar": "5b1f9f69d24bc03e66e9e044447146ba"
   },
   {
     "userId": "191728728953454592",
     "result": "drpk",
     "name": "sianhale",
-    "discriminator": "0",
     "avatar": "1bf85afe89cd636b3c802d3e1177020b"
   },
   {
     "userId": "288532448457916417",
     "result": "wrhk",
-    "name": "nubletcakii",
-    "discriminator": "0"
+    "name": "nubletcakii"
   },
   {
     "userId": "193138734101692416",
     "result": "wghb",
     "name": "enomagla",
-    "discriminator": "0",
     "avatar": "42094226bfe7e41cb7f0b1baaf249d6b"
   },
   {
     "userId": "837732151361404938",
     "result": "wgpk",
     "name": "kiwimeowahura",
-    "discriminator": "0",
     "avatar": "021278bb1114b9b9fc3ef965960c8cad"
   },
   {
     "userId": "475074359086809098",
     "result": "drpb",
     "name": "swazimagic",
-    "discriminator": "0",
     "avatar": "4ff51062d7ab19eb169024671c4bb5f4"
   },
   {
     "userId": "297494088457125888",
     "result": "wrpb",
     "name": "jus.jus",
-    "discriminator": "0",
     "avatar": "35cccb4f5d66f55864a5fe4bf9ca1ab8"
   },
   {
     "userId": "332296091745779715",
     "result": "dgpb",
     "name": "billythepony",
-    "discriminator": "0",
     "avatar": "ff244b1b7409a5cf1c82277d63ef3eed"
   },
   {
     "userId": "221648054804152322",
     "result": "wgpk",
     "name": "snowyou",
-    "discriminator": "0",
     "avatar": "a_48354f6e91cc49b9739ab4ff92297adf"
   },
   {
     "userId": "251232400627990528",
     "result": "drhk",
     "name": "telephone_ghost",
-    "discriminator": "0",
     "avatar": "b32fc62a5252d927c4bf985dc9693fe2"
   },
   {
     "userId": "446780611772809227",
     "result": "drhb",
     "name": "catweeb",
-    "discriminator": "0",
     "avatar": "399e3f81eb63f41683fb96f3805d53e1"
   },
   {
     "userId": "841310710814081035",
     "result": "drpb",
     "name": "steeljester",
-    "discriminator": "0",
     "avatar": "977ccf5517b2ee628657f3a5b9c73dc6"
   },
   {
     "userId": "249154878495129601",
     "result": "wrhb",
     "name": "saturnalia___",
-    "discriminator": "0",
     "avatar": "42a8a3caa3be762fddf4bf8ed007514d"
   },
   {
     "userId": "555164930005794836",
     "result": "wrhb",
     "name": "wamysauce",
-    "discriminator": "0",
     "avatar": "930f3d73758a3c8b64a1e362c6832dda"
   },
   {
     "userId": "475562868058750979",
     "result": "wrhb",
     "name": "paddele",
-    "discriminator": "0",
     "avatar": "5374aeccf3daa7f7f2bf86db5640581d"
   },
   {
     "userId": "209050180010508288",
     "result": "wrpb",
     "name": "bandanashark",
-    "discriminator": "0",
     "avatar": "778e6481a80959a2e6e749fe290cd2ed"
   },
   {
     "userId": "178187098929496064",
     "result": "wrhk",
     "name": "sacrosapphic",
-    "discriminator": "0",
     "avatar": "a0fbce3737849d8a11aaa1deafab1046"
   },
   {
@@ -973,7 +834,6 @@
     "userId": "339433539827400724",
     "result": "wgpk",
     "name": "mahmoud911",
-    "discriminator": "0",
     "avatar": "0ece1a95470bf3fa5209cd38d2d7ec1d"
   },
   {
@@ -987,7 +847,6 @@
     "userId": "366684453663277057",
     "result": "wrpb",
     "name": "nikbottom",
-    "discriminator": "0",
     "avatar": "3d6ab2abe4cc7ba3d9c037e478a775af"
   },
   {
@@ -1001,56 +860,48 @@
     "userId": "220709222483099648",
     "result": "wgpb",
     "name": "greenmuffin",
-    "discriminator": "0",
     "avatar": "b8daff6c3646ab29e506dcefad9c00cf"
   },
   {
     "userId": "229634825139650560",
     "result": "drpk",
     "name": "semi_sweet",
-    "discriminator": "0",
     "avatar": "30df037365758e358fd1e7980115ab13"
   },
   {
     "userId": "213008422373818369",
     "result": "wgpb",
     "name": "redscarfi",
-    "discriminator": "0",
     "avatar": "8ba5f605d0e1e1b3908a9a69f7439dbf"
   },
   {
     "userId": "305675347754483714",
     "result": "wghb",
     "name": "karpps",
-    "discriminator": "0",
     "avatar": "234284c97c8c41251b6caf46ad67bc39"
   },
   {
     "userId": "236620582395838465",
     "result": "wrpk",
     "name": "zettexe",
-    "discriminator": "0",
     "avatar": "fdbcb8fe575eb60e29f8d6d5844e1d71"
   },
   {
     "userId": "232567269627002881",
     "result": "wrpk",
     "name": "caysion",
-    "discriminator": "0",
     "avatar": "3bd789d90945adc2c51cbe44ed741a93"
   },
   {
     "userId": "977980457075507300",
     "result": "drpb",
     "name": "sarah.anderson",
-    "discriminator": "0",
     "avatar": "d92469fdc187e39133ed801ca91690af"
   },
   {
     "userId": "420585244249423892",
     "result": "dgpk",
     "name": "uber2013",
-    "discriminator": "0",
     "avatar": "bc9758bbd2db4ddfd4f27ccf531aed4f"
   },
   {
@@ -1064,167 +915,138 @@
     "userId": "297008225755201537",
     "result": "wrhb",
     "name": "nox3623",
-    "discriminator": "0",
     "avatar": "f7ab54da435a79a7e6f82245e627657d"
   },
   {
     "userId": "226856188950609920",
     "result": "dgpb",
     "name": "aro4016",
-    "discriminator": "0",
     "avatar": "d43f24fff1d171d692cf3eb100a56316"
   },
   {
     "userId": "701528112625614858",
     "result": "dgpb",
     "name": "freesimples",
-    "discriminator": "0",
     "avatar": "007cf1319b82e1a2713585e34b997272"
   },
   {
     "userId": "305009154639265792",
     "result": "wgpb",
     "name": "eyeofpsy",
-    "discriminator": "0",
     "avatar": "9786f33691768ae5665ac4493c0f7642"
   },
   {
     "userId": "120701494415589377",
     "result": "dghb",
     "name": "vany227",
-    "discriminator": "0",
     "avatar": "5fd8bd004484104b4a2e79414901ad1d"
   },
   {
     "userId": "138334662010470400",
     "result": "wghk",
     "name": ".alterna",
-    "discriminator": "0",
     "avatar": "cec4d7793d4b507a982a20b8cacce3bf"
   },
   {
     "userId": "344555386935836683",
     "result": "dgpk",
     "name": "wedyah",
-    "discriminator": "0",
     "avatar": "0edc05c4732b663405d0271adbead091"
   },
   {
     "userId": "200794099119292418",
     "result": "dgpk",
     "name": "manicderrikk",
-    "discriminator": "0",
     "avatar": "5789aec42d2166c093a0b6db26c2d3ed"
   },
   {
     "userId": "402245385067823104",
     "result": "wghk",
     "name": "lethescheinen",
-    "discriminator": "0",
     "avatar": "ec3cca14c9c5efa0c5c3f4f3ceafa7d4"
   },
   {
     "userId": "361026817676804106",
     "result": "dghk",
     "name": "violinsexual",
-    "discriminator": "0",
     "avatar": "afb00f6695fbbc213df8e4d67ebabcb7"
   },
   {
     "userId": "170586546041257993",
     "result": "wgpb",
     "name": "tankman",
-    "discriminator": "0",
     "avatar": "a4a631b5002977affe675a0a9ebfd308"
   },
   {
     "userId": "355067587370942465",
     "result": "wgpb",
     "name": "dongorlovessekimeiya",
-    "discriminator": "0",
     "avatar": "3f18881f549fc68c230c1d7f228e3bca"
   },
   {
     "userId": "223120222121492480",
     "result": "wghb",
     "name": "bakubakumin",
-    "discriminator": "0",
     "avatar": "87324af68fe60253388885b24727b849"
   },
   {
     "userId": "135755289562578945",
     "result": "wghk",
     "name": "davithebee",
-    "discriminator": "0",
     "avatar": "2900aa4fc219f066a326a990bd7e4ac9"
   },
   {
     "userId": "475791396691902476",
     "result": "dghb",
     "name": "_rvdz",
-    "discriminator": "0",
     "avatar": "a45b8955a85e38dc3c81f0f6d8979cb8"
   },
   {
     "userId": "201791556410146816",
     "result": "wrpb",
     "name": "artemisboi",
-    "discriminator": "0",
     "avatar": "a8974b6b2b5bae340cfde15391f92904"
   },
   {
     "userId": "965433267425775626",
     "result": "wrhb",
     "name": "druss_malka",
-    "discriminator": "0",
     "avatar": "4a813eaa17e268b0c1ef4aa27cca0d59"
   },
   {
     "userId": "442981106778767360",
     "result": "drpb",
     "name": "samandunintellectual",
-    "discriminator": "0",
     "avatar": "77d7d70284f961a080d24f5672c2fb51"
   },
   {
     "userId": "209371789153796097",
     "result": "drpk",
     "name": "anarchozoey",
-    "discriminator": "0",
     "avatar": "f1e0e4a9a6b1a352e05cb2f4c0281d27"
   },
   {
     "userId": "199263137487257600",
     "result": "wghk",
     "name": "huensohn",
-    "discriminator": "0",
     "avatar": "2ec0edc2f0b20966148c5707ff05ae5b"
   },
   {
     "userId": "130129042891472896",
     "result": "wrhk",
     "name": "zargy",
-    "discriminator": "0",
     "avatar": "dd48c754c0cd44021ce9a38c76e2802d"
-  },
-  {
-    "userId": "1017983557672644728",
-    "result": "wrpb",
-    "name": "Deleted User c0089aea",
-    "discriminator": "9639"
   },
   {
     "userId": "333199686972211200",
     "result": "dghb",
     "name": "hannahbanana1312",
-    "discriminator": "0",
     "avatar": "11f513b12db809abbe3576938abd7c8e"
   },
   {
     "userId": "304359598624866304",
     "result": "drhb",
     "name": ".civd",
-    "discriminator": "0",
     "avatar": "da914203d90c20d2eb57ebdc36cdcf91"
   },
   {
@@ -1238,42 +1060,42 @@
     "userId": "238995404446892032",
     "result": "wgpb",
     "name": "smokarin",
-    "discriminator": "0",
     "avatar": "af6c0a0008f5b2d71eff6c5ea20b2d41"
   },
   {
     "userId": "208880605436444674",
     "result": "wgpb",
     "name": "taxen_of_hearts",
-    "discriminator": "0",
     "avatar": "aec68568ae799fdd5b5deb9a2a8a10d7"
   },
   {
     "userId": "403143867769159690",
     "result": "wgpk",
     "name": "lpdlio",
-    "discriminator": "0",
     "avatar": "10c22942c21e244722ff6785dd98566f"
   },
   {
     "userId": "773574422740205569",
     "result": "drpk",
     "name": "fiaaaaaaaaaaaa",
-    "discriminator": "0",
     "avatar": "fd38008b94746713bab72f39cc1a94b1"
   },
   {
     "userId": "149086255001501696",
     "result": "wrpb",
     "name": "eriswed",
-    "discriminator": "0",
     "avatar": "913da022ae09ddce09ec8c91208a5fb5"
   },
   {
     "userId": "497814389521645580",
     "result": "dgpb",
     "name": ".llorenzo",
-    "discriminator": "0",
     "avatar": "81e3a23af29df72e9be65dd65eed162e"
+  },
+  {
+    "userId": "112677675692212224",
+    "result": "dgpb",
+    "name": "saichiiro.",
+    "avatar": "485f6c2b03c718495296b5e2f5ca044a"
   }
 ]

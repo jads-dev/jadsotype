@@ -70,8 +70,9 @@ async function updateUser(client, old) {
     return {
       ...old,
       name: username,
-      discriminator,
-      avatar: avatar ?? undefined,
+      discriminator:
+        discriminator && discriminator !== "0" ? discriminator : undefined,
+      avatar: avatar ? avatar : undefined,
       result: canonicalize(old.result),
     };
   } catch (e) {

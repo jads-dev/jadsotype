@@ -1,6 +1,6 @@
 import { html, render } from "https://unpkg.com/lit@2.2.3?module";
 
-import { load, product } from "./util.mjs";
+import { load, modulo, product } from "./util.mjs";
 
 export async function init() {
   const [results, dichotomies] = await Promise.all([
@@ -18,21 +18,32 @@ export async function init() {
 
   const user = ({ name, discriminator, avatar, userId }) => {
     if (name !== undefined) {
+      const oldUsername = discriminator !== undefined;
       const avatarUrl =
         avatar !== undefined
           ? `avatars/${userId}/${avatar}.webp`
-          : `embed/avatars/${parseInt(discriminator, 10) % 5}.png`;
+          : `embed/avatars/${
+              oldUsername
+                ? modulo(parseInt(discriminator, 10), 5)
+                : modulo(userId >> 22, 6)
+            }.png`;
+      const username = oldUsername
+        ? html`<p>
+            <span class="name">${name}</span
+            ><span class="discriminator">#${discriminator}</span>
+          </p>`
+        : html`<p>
+            <span class="name">${name}</span>
+          </p>`;
+      const usernameText = oldUsername ? `${name}#${discriminator}` : name;
       return html`
         <li>
           <img
             alt="${name}'s Avatar"
-            title="${name}#${discriminator}"
+            title="${usernameText}"
             src="https://cdn.discordapp.com/${avatarUrl}"
           />
-          <p>
-            <span class="name">${name}</span
-            ><span class="discriminator">#${discriminator}</span>
-          </p>
+          ${username}
         </li>
       `;
     } else {

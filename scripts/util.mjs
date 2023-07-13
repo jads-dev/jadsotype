@@ -19,6 +19,10 @@ export const max = (values, keyFunc) =>
     values[0],
   );
 
+export function modulo(dividend, divisor) {
+  return ((dividend % divisor) + divisor) % divisor;
+}
+
 export function product(...iterables) {
   const pools = iterables.map((iterable) => [...iterable]);
   let result = [[]];

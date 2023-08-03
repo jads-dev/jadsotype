@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=18.0.0 <19.0.0"
+    "node": ">=20.0.0 <21.0.0"
   },
   "scripts": {
     "update": "node ./src/update.mjs",
@@ -11,7 +11,7 @@
     "add:dry-run": "node ./src/update.mjs --add-only --output-file=--"
   },
   "dependencies": {
-    "discord.js": "^13.7.0",
-    "yargs": "^17.5.1"
+    "discord.js": "^14.12.1",
+    "yargs": "^17.7.2"
   }
 }

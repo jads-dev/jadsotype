@@ -223,15 +223,14 @@
   {
     "userId": "765173999386624000",
     "result": "wghb",
-    "name": "Michał24",
-    "discriminator": "6965",
+    "name": "haen24",
     "avatar": "c1ebb3f8814b64e37b1d682861d2d013"
   },
   {
     "userId": "486297786086588439",
     "result": "wghb",
     "name": "_naya_",
-    "avatar": "b7d9a6ebb704d11ed96198f5e2fedb92"
+    "avatar": "00f279edba13b9a382d9d7df138df511"
   },
   {
     "userId": "284672116454981633",
@@ -670,7 +669,7 @@
   },
   {
     "userId": "689543177484370162",
-    "result": "wrhk",
+    "result": "wghb",
     "name": "xephorix512",
     "avatar": "47fa5a7699e0f1a4bbec8f4f438f0ae5"
   },
@@ -871,7 +870,7 @@
     "userId": "213008422373818369",
     "result": "wgpb",
     "name": "redscarfi",
-    "avatar": "8c942f81cee121994f2abcc50758094e"
+    "avatar": "184c968f59e952a20a6e535cd5bc3b38"
   },
   {
     "userId": "305675347754483714",
@@ -1096,5 +1095,47 @@
     "result": "dgpb",
     "name": "saichiiro.",
     "avatar": "485f6c2b03c718495296b5e2f5ca044a"
+  },
+  {
+    "userId": "226175422759567361",
+    "result": "wrpb",
+    "name": "tfk365",
+    "avatar": "d8b6bf1a90cd47388937e14687006003"
+  },
+  {
+    "userId": "846429678163066910",
+    "result": "dgpk",
+    "name": "dabmcfapdab",
+    "avatar": "5c4f1d81e0cb40180620dadca5440a9e"
+  },
+  {
+    "userId": "321724036155441153",
+    "result": "wrhk",
+    "name": "leviathonk",
+    "avatar": "629f677f2e8d76373d2d2d94df925ad4"
+  },
+  {
+    "userId": "226558686947049472",
+    "result": "wrpk",
+    "name": "aniforprez",
+    "avatar": "3cb3fc60c6c7fbe563c65cd50038d863"
+  },
+  {
+    "userId": "95265589106323456",
+    "result": "dgpb",
+    "name": "vickyrira",
+    "avatar": "999d66a4ec3b3623bf5658ac5be8946b"
+  },
+  {
+    "userId": "245679074033401867",
+    "result": "dgpb",
+    "name": "lek__",
+    "avatar": "423909f5cea7b5316b44a23b5d9a2c34"
+  },
+  {
+    "userId": "1118692626825232506",
+    "result": "drpb",
+    "name": "jomsenpai",
+    "avatar": "1779884eb145014a494b5717998d9bf4"
   }
 ]

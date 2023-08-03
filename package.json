@@ -3,7 +3,7 @@
   "type": "module",
   "devDependencies": {
     "eslint": "^8.15.0",
-    "eslint-plugin-simple-import-sort": "^7.0.0",
-    "prettier": "^2.6.2"
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.0.0"
   }
 }

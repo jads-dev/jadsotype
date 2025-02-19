@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": ">=21.0.0 <22.0.0"
+    "node": ">=23.0.0 <24.0.0"
   },
   "scripts": {
     "update": "node ./src/update.mjs",
